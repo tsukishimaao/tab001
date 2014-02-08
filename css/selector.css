@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+    *{margin:0;padding:0;}  
+    body{padding:10px;}  */
+    #tab-box ul {
+	width: 766px;
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+    }  
+    #tab-box ul li {  
+    margin-right:0px;  
+    float:left;  
+    display:inline;  
+    font-size:0;
+	margin-right: 2px;
+    }  
+    
+	#tab-box ul li a img{  
+    outline:none;  
+    border:none;  
+    }  
+    
+	#tab-box div {
+	display:none;
+	width:390px;
+	height: 100px;
+	background:#CCCCCC;
+	}
+	
+	.clearFix:after{  
+    display:block;  
+    clear:both;  
+    height:0;  
+    visibility:hidden;  
+    content:".";  
+    zoom:1;  
+    }  

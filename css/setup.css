@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* ====================================== スタイルリセット ====================================== */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,textarea,p,blockquote,th,td {
+margin: 0;
+padding: 0;
+}
+address,em {
+font-style: normal;
+}
+strong,th {
+font-weight: normal;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*hr,*/legend {
+display: none;
+}
+h1,h2,h3,h4,h5,h6 {
+font-size: 100%;
+}
+img,fieldset {
+	border: 0;
+}
+li {
+list-style-type: none;
+}
+
+
+/* Fonts
+------------------------------------------------------------*/
+body {
+	font-size: 100%; /* IE */
+	font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "Sans-Serif";
+	margin: 0px;
+	padding: 0px;
+}
+html>/**/body {
+font-size: 16px; /* Except IE */
+}
+
+/* clearfix
+------------------------------------------------------------*/
+.clearfix:after {
+content: ".";
+display: block;
+visibility: hidden;
+height: 0;
+clear: both;
+}
+.clearfix {
+zoom: 1;
+}
+
+/* --テキストラベル-- */
+.textlabel {display:none;
+}
